@@ -9,8 +9,6 @@ export default async function Home() {
   const res = await getCurrentWeather("seoul");
   const time = await getTime(res.location.tz_id);
 
-  console.log(res.current.condition.text);
-
   return (
     <>
       <h1>날씨 앱</h1>
