@@ -152,6 +152,4 @@ export const getForecast = async (location:string):Promise<Response> => {
         console.log("잘됨 ㅋ")
       }
       return res.json();
-      
-    return res.json();
 }
